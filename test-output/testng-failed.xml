@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Ecommerce.test.Automation">
+        <methods>
+          <include name="mainPage" invocation-numbers="1"/>
+          <include name="launchApp"/>
+          <include name="close"/>
+          <include name="ordrConfirmation"/>
+        </methods>
+      </class> <!-- Ecommerce.test.Automation -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
